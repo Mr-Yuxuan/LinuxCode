@@ -1,0 +1,22 @@
+<html>
+	<head><h1 align="center">好友管理</h1></head>
+	<body>
+		<form action="cgi_sql/insert_sql" method="POST">
+			<p><h2>INSERT_DATA</h2></p>
+			<p>name:<input type="text" name="name"/></p>
+			<p>age:<input type="text" name="age"/></p>
+			<p>school:<input type="text" name="school"/></p>
+			<button type="sumbit">insert</button>
+		</form>
+		<form action="cgi_sql/delete_sql" method="POST">
+			<p><h2>DELETE_DATA</h2></p>
+			<p>id:<input type="text" name="id"/></p>
+			<button type="sumbit">delete</button>
+		</form>
+		<form action="cgi_sql/select_sql" method="POST">
+			<p><h2>SELECT_DATA</h2></p>
+		    <button type="sumbit">select</button>
+		</form>
+
+	</body>
+</html>
